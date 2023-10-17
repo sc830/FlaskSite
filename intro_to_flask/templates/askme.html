@@ -6,6 +6,7 @@
 {% if success %}
 <p> You asked me:  "{{ask_me_prompt}}"".  </p>
 <p> Here's your answer:  {{ask_me_response}}  </p>
+<li><a href="{{ url_for('askme') }}">Ask Another Question</a></li>
 {% else %}  
 {% for prompt in form.prompt.errors %}
 <div class="flash">{{ prompt }}</div>
@@ -23,6 +24,8 @@ https://flask-wtf.readthedocs.io/en/0.15.x/csrf/
     {{ form.submit }}
 
 </form>
+
+<li><a href="{{ url_for('askme') }}">Ask Another Question</a></li>
 {% endif %}
 
 {% endblock %}
