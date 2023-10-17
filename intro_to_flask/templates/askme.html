@@ -17,7 +17,10 @@ This form has no CSRF protection.  To add, see:
 https://flask-wtf.readthedocs.io/en/0.15.x/csrf/
 --> 
 
-<p> You have to add code to make this a form </p>
+    {{ form.prompt.label }}
+    {{ form.prompt }}
+      
+    {{ form.submit }}
 
 </form>
 {% endif %}
