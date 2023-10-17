@@ -115,6 +115,19 @@ form textarea#message {
   font-size: 1.1em;
 }
 
+form textarea#prompt {
+  width: 500px;
+  height: 100px;
+  background-color: #fafafa;
+  -webkit-border-radius: 3px;  
+     -moz-border-radius: 3px;  
+          border-radius: 3px;
+  border: 1px solid #cccccc;
+  margin-bottom: 10px;
+  padding: 5px;
+  font-size: 1.1em;
+}
+
 form input#submit {
   display: block;
   -webkit-border-radius: 3px; 
