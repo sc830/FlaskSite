@@ -1,14 +1,11 @@
-# Intro to Flask and Website w/o a Database
 
-This is a sample application for  Intro to Flask.  It is based upon code originally forked from: https://github.com/lpolepeddi/intro-to-flask
+### Project ###
+In this project, I was provided with a simple Flask app and tasked with modifying it to add components. This project was completed within approximately 30 minutes as part of a programming assessment.
 
-The repo and its branches takes you from creating a simple non-interactive website and styling to creating forms, sending emails and an intro to packages.
-It uses Django templates.  Please see this URL to understand the syntax:  https://docs.djangoproject.com/en/4.1/ref/templates/language/
+### Getting Started ###
+Clone this repository to your local machine.
+This app is meant to be used with IDE like VSCode.
 
-It is arranged in a series of branches or checkpoints with new features.  Try starting at the simplist, lowest-numbered branches. 
-
-# Prerequisites (meant to be used with IDE like VSCode)
-Instructions for running and debugging this python file in VSCode
 The program assumes that you have python3 and pip3 installed on your machine.
 In the VSCode terminal window type the following:
     pip3 install -r requirements.txt
@@ -18,12 +15,8 @@ In VSCode, press Cmd-Shift-P (on Mac) or Ctrl-Shift-P (on Windows).
    From the next options dropdown select "venv"
 After the above and setting up the database, you should be able to run and debug this program
 
+### Skill Development ###
+This project allowed me to display my skills in modifying routes and components of Flask applications.
 
-## Cloning the repo
-First clone this repo by running in a terminal or command prompt:
-```bash
-$ git clone https://bitbucket.org/txstatecs3398all/intro-to-flask-websites-no-db.git
-
-## Using the GitHub or Bitbuckect branch menu
-You can use GitHub's or Bitbucket's web interface to view each checkpoint/branch. Click on the branch menu and select the checkpoint you want to view, shown below:
-
+Acknowledgements
+Thanks to the developer of this app, L. Polepeddi. The original is located here: https://github.com/lpolepeddi/intro-to-flask
