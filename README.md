@@ -1,10 +1,10 @@
-
 ### Project ###
-In this project, I was provided with a simple Flask app and tasked with modifying it to add components. This project was completed within approximately 30 minutes as part of a programming assessment.
+In this project, I was provided with a simple Flask app and tasked with modifying it to add routes, forms, and API integration to allow the user to submit a text prompt and receive an image generated from that prompt through OpenAI.
 
 ### Getting Started ###
 Clone this repository to your local machine.
 This app is meant to be used with IDE like VSCode.
+This app requires a valid OpenAI API key located in a .env file.
 
 The program assumes that you have python3 and pip3 installed on your machine.
 In the VSCode terminal window type the following:
@@ -16,7 +16,9 @@ In VSCode, press Cmd-Shift-P (on Mac) or Ctrl-Shift-P (on Windows).
 After the above and setting up the database, you should be able to run and debug this program
 
 ### Skill Development ###
-This project allowed me to display my skills in modifying routes and components of Flask applications.
+Flask: Applied knowledge of Flask structure/usage to a practical setting.
+CSS: Developed desired style and layout using style sheets.
+RESTful APIs: Utilized OpenAI's API to get and post information in complex formats.
 
 Acknowledgements
-Thanks to the developer of this app, L. Polepeddi. The original is located here: https://github.com/lpolepeddi/intro-to-flask
+Thanks to the developers of this app, L. Polepeddi and Ted Lehr. The original is located here: https://github.com/lpolepeddi/intro-to-flask
